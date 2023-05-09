@@ -1,5 +1,11 @@
 # Tool: httpver_scan
-This is a tool (written in Python) to perform quick scan on HTTP server. 
+This is a tool (written in Python) to perform quick scan on HTTP server.
+
+It's features include:
+ - scan spcific URL
+ - scan a list of sites from an input file
+ - allow to follow [301] redirection
+ - always make async connections
 
 # Usage
 ```bash
