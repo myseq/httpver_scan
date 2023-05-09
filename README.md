@@ -2,7 +2,10 @@
 This is a tool (written in Python) to perform quick scan on HTTP server.
 
 It's features include:
- - showing HTTP version and server headers
+ - show HTTP version
+ - show HTTP server and version
+ - show the elapsed time for individual site
+ - show the total and real time taken 
  - can scan spcific URL
  - can scan a list of sites from an input file
  - allow to follow [301] redirection
