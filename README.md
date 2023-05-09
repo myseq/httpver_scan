@@ -1,9 +1,11 @@
 # Tool: httpver_scan
 This is a tool (written in Python) to perform quick scan on HTTP server.
 
-It's features include:
+Main features include:
  - show HTTP version
  - show HTTP server and version
+
+Other capabilities:
  - show the elapsed time for individual site
  - show the total and real time taken 
  - can scan spcific URL
