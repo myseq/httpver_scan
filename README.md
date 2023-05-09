@@ -2,15 +2,16 @@
 This is a tool (written in Python) to perform quick scan on HTTP server.
 
 It's features include:
- - scan spcific URL
- - scan a list of sites from an input file
+ - showing HTTP version and server headers
+ - can scan spcific URL
+ - can scan a list of sites from an input file
  - allow to follow [301] redirection
  - always make async connections
 
 # Usage
 ```bash
-$ ./httpver_scan.py -h
-usage: httpver_scan.py [-h] [-u <url> [<url> ...]] [-f <sites.url>] [-r] [-v]
+$ ./main.py -h
+usage: main.py [-h] [-u <url> [<url> ...]] [-f <sites.url>] [-r] [-v]
 
 options:
   -h, --help            show this help message and exit
